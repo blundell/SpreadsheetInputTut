@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Spreadsheet Input Tut</string>
+  <string name="question_name_input_hint">Enter your name</string>
+  <string name="question_cats">Do you like cats?</string>
+</resources>
