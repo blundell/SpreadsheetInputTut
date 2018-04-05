@@ -44,12 +44,12 @@ public class QuestionsActivity extends AppCompatActivity {
 
     private final Callback<Void> callCallback = new Callback<Void>() {
         @Override
-        public void onResponse(Response<Void> response) {
+        public void onResponse(Call<Void> call, Response<Void> response) {
             Log.d("XXX", "Submitted. " + response);
         }
 
         @Override
-        public void onFailure(Throwable t) {
+        public void onFailure(Call<Void> call, Throwable t) {
             Log.e("XXX", "Failed", t);
         }
     };
